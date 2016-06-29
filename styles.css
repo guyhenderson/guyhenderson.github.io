@@ -1,0 +1,25 @@
+.header {
+  background-color: green;
+  height: 300px;
+  width: 100%;
+}
+
+.form {
+  background-color: pink;
+  height: 100px;
+  width: 100%;
+}
+
+.main {
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
+
+.melon1hoverer {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin-left: 300px;
+}
