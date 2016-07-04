@@ -17,21 +17,21 @@ h1 {
 
 .melon {
 
-animation: animationFrames ease-in-out 3s;
-animation-iteration-count: infinite;
-transform-origin: 50% 50%;
-}
+    animation: animationMelon ease-in-out 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    }
 
-@keyframes animationFrames{
-0% {
-  transform:  translate(0px,50px)  rotate(0deg) ;
-}
-50% {
-  transform:  translate(500px,-50px)  rotate(180deg);
-}
-100% {
-  transform:  translate(0px,50px)  rotate(360deg);
-}
+        @keyframes animationMelon{
+        0% {
+          transform:  translate(0px,50px)  rotate(0deg) ;
+        }
+        50% {
+          transform:  translate(500px,-50px)  rotate(180deg);
+        }
+        100% {
+          transform:  translate(0px,50px)  rotate(360deg);
+        }
   }
 
 nav {
@@ -99,55 +99,93 @@ li {
 }
 
 .melon1 {
-  /*background-color: green;
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;*/
   margin-left: 100px;
   display: inline-block;
-}
 
-.melon2 {
-  /*background-color: green;
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;*/
-  margin-left: 200px;
-  display: inline-block;
-}
+/*ANIMATION*/
 
-.melon3 {
-  /*background-color: green;
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;*/
-  margin-left: 200px;
-  display: inline-block;
-}
-
-.melon4 {
-  /*background-color: green;
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;*/
-  margin-left: 200px;
-  display: inline-block;
-
-  animation: animationFrames ease-in-out 3s;
+  animation: animationMelon1 ease-in-out 5s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   }
 
-  @keyframes animationFrames{
+  @keyframes animationMelon1{
   0% {
-    transform:  translate(0px,50px)  rotate(0deg) ;
+    transform:  translate(100px,-50px)  rotate(0deg) ;
   }
   50% {
-    transform:  translate(500px,-50px)  rotate(180deg);
+    transform:  translate(-50px,100px)  rotate(180deg);
   }
   100% {
-    transform:  translate(0px,50px)  rotate(360deg);
+    transform:  translate(100px,-50px)  rotate(360deg);
   }
+}
 
+.melon2 {
+  margin-left: 200px;
+  display: inline-block;
 
+/*ANIMATION*/
+
+      animation: animationMelon2 ease-in-out 2s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%;
+      }
+
+          @keyframes animationMelon2{
+          0% {
+            transform:  translate(800px,-100px)  rotate(0deg) ;
+          }
+          50% {
+            transform:  translate(-100px,-50px)  rotate(180deg);
+          }
+          100% {
+            transform:  translate(-50px,50px)  rotate(360deg);
+          }
+}
+
+.melon3 {
+  margin-left: 200px;
+  display: inline-block;
+
+/*ANIMATION*/
+
+        animation: animationMelon3 ease-in-out 8s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationMelon3{
+            0% {
+              transform:  translate(0px,50px)  rotate(0deg) ;
+            }
+            50% {
+              transform:  translate(500px,-50px)  rotate(180deg);
+            }
+            100% {
+              transform:  translate(0px,50px)  rotate(360deg);
+            }
+}
+
+.melon4 {
+  margin-left: 200px;
+  display: inline-block;
+
+/*ANIMATION*/
+
+        animation: animationMelon4 ease-in-out 3s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationMelon4{
+            0% {
+              transform:  translate(0px,50px)  rotate(0deg) ;
+            }
+            50% {
+              transform:  translate(500px,-50px)  rotate(180deg);
+            }
+            100% {
+              transform:  translate(0px,50px)  rotate(360deg);
+            }
 }
