@@ -19,7 +19,7 @@ h1 {
 
   margin-left: 200px;
 
-    animation: animationMelon ease-in-out 3s;
+    animation: animationMelon ease-in-out 5s;
     animation-iteration-count: infinite;
     transform-origin: 50% 50%;
     }
