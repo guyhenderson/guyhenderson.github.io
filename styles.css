@@ -36,6 +36,10 @@ h1 {
         }
   }
 
+  .active .melon {
+    
+  }
+
 nav {
   background-color: rgb(200, 240, 190);
   font-family: 'Nunito', sans-serif;
@@ -63,20 +67,30 @@ li {
   margin-left: 500px;
 }*/
 
-#mc_embed_signup {
+/*#mc_embed_signup {
     margin-left: 400px;
     padding-right: 0;
-}
+}*/
 
 .mc-field-group {
   padding-right: 200px;
 }
 
-.email {
-  margin-left: 42px;
+#mc-embedded-subscribe-form .mc-field-group input {
+  border: 1px solid black;
+}
+
+/*
+#mc_embed_signup input.email {
+  /*margin-left: 42px;
   margin-bottom: 5px;
   padding-right: 150px;
-  border: 1px solid black;
+
+}*/
+
+.mc-embedded-subscribe-form {
+  width: 40%;
+  margin: 0 auto;
 }
 
 .name {
