@@ -37,7 +37,7 @@ h1 {
   }
 
   .active .melon {
-    
+
   }
 
 nav {
@@ -56,7 +56,7 @@ li {
 
 .form {
   background-color: rgb(255, 215, 230);
-  height: 200px;
+  height: 320px;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -115,8 +115,11 @@ li {
 }
 
 .melon1 {
-  margin-left: 100px;
-  display: inline-block;
+margin-left: 100px;
+display: inline-block;
+}
+
+.active .melon1 {
 
 /*ANIMATION*/
 
@@ -140,6 +143,9 @@ li {
 .slice {
   margin-left: 200px;
   display: inline-block;
+}
+
+.active .slice {
 
 /*ANIMATION*/
 
@@ -163,6 +169,9 @@ li {
 .disco {
   margin-left: 50px;
   display: inline-block;
+}
+
+.active .disco {
 
 /*ANIMATION*/
 
@@ -189,6 +198,10 @@ li {
 .lemon {
   margin-left: 0;
   display: inline-block;
+
+}
+
+.active .lemon {
 
 /*ANIMATION*/
 

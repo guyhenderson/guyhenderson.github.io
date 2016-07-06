@@ -1,5 +1,5 @@
-$(function(){
-  $('#mce-EMAIL').on('keypress', function(){
-    $('#main').addClass('active');
+jQuery(function(){
+  jQuery('#mce-EMAIL').on('keypress', function(){
+    jQuery('#main').addClass('active');
   });
 });
