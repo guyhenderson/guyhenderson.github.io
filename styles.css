@@ -15,7 +15,7 @@ h1 {
   margin-left: 25px;
 }
 
-.melon {
+.carton {
 
   margin-left: 200px;
 
@@ -36,9 +36,6 @@ h1 {
         }
   }
 
-  .active .melon {
-
-  }
 
 nav {
   background-color: rgb(200, 240, 190);
