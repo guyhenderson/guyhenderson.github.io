@@ -5,32 +5,32 @@
   padding-top: 50px;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1024px) {
     .header {
   background-color: red;
     }
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 768px) {
     .header {
   background-color: yellow;
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 425px) {
     .header {
   background-color: green;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 375px) {
     .header {
   background-color: blue;
     }
 }
 
 @media (max-width: 320px) {
-    .header {
+    nav {
   background-color: purple;
     }
 }
