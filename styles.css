@@ -5,6 +5,36 @@
   padding-top: 50px;
 }
 
+@media (max-width: 1024px) {
+    .header {
+  background-color: red;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+  background-color: yellow;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+  background-color: green;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+  background-color: blue;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+  background-color: purple;
+    }
+}
+
 h1 {
   margin: 0 auto;
   text-align: center;
