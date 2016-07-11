@@ -52,41 +52,36 @@ nav {
 
 /*RESPONSIVE NAV STUFF*/
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     nav {
   background-color: red;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     nav {
   background-color: yellow;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
     nav {
   background-color: green;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
     nav {
   background-color: blue;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
     nav {
   background-color: purple;
     }
 }
 
-@media print {
-    nav {
-  background-color: orange;
-    }
-}
 
 li {
   display: inline-block;
