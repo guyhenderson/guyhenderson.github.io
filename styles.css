@@ -21,7 +21,7 @@ h1 {
 
 }
 
-.active.carton {
+.active .carton {
 
     animation: animationMelon ease-in-out 5s;
     animation-iteration-count: infinite;
