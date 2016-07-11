@@ -50,6 +50,24 @@ nav {
   overflow: auto;
 }
 
+@media screen and (max-width: 660px) {
+    nav {
+  background-color: red;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    nav {
+  background-color: yellow;
+    }
+}
+
+@media print {
+    nav {
+  background-color: orange;
+    }
+}
+
 li {
   display: inline-block;
   margin-left: 200px;
