@@ -4,10 +4,10 @@ body {
 }
 
 .container {
-  background-image: url("biggerbackground.png");
+  background-image: url("background.png");
   background-size: cover;
   background-repeat:no-repeat;
-  height: 1100px;
+  height: 750px;
   margin: 0;
   padding: 0;
 }
