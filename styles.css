@@ -1,9 +1,21 @@
 
-.container {
-  background-image: url("background.png");
-  background-size: cover;
+body {
+  /*background-color: rgb(250, 40, 60)*/
 }
 
+.container {
+  background-image: url("biggerbackground.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 1100px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-left: 250px;
+  padding-top: 130px;
+}
 
 /*///////////////////////////////////////////////////////////////////////////////*/
 
@@ -16,9 +28,7 @@ h1 {
   font-family: 'Nunito', sans-serif;
 }
 
-.logo {
-  margin-left: 25px;
-}
+
 
 .carton {
   margin-left: 200px;
