@@ -12,9 +12,51 @@ body {
   padding: 0;
 }
 
+.discoball {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.active .discoball {
+        animation: animationMelon3 ease-in-out 3s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationMelon3{
+            0% {
+              transform:  translate(0px,50px)  rotate(90deg) ;
+            }
+            25% {
+              transform:  translate(400px,0px)  rotate(180deg);
+            }
+            50% {
+              transform:  translate(25px,250px)  rotate(270deg);
+            }
+            100% {
+              transform:  translate(25px,0px)  rotate(360deg);
+            }
+}
+
+.slice1 {
+  margin-left: 30px;
+  display: inline-block;
+}
+
 .logo {
-  margin-left: 250px;
-  padding-top: 130px;
+  margin-left: 30px;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.lemon {
+  margin-left: 160px;
+  display: inline-block;
+}
+
+.slice2 {
+  margin-left: 50px;
+  display: inline-block;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////*/
