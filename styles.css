@@ -23,7 +23,7 @@ padding:0;
 
 .discoball {
   position: absolute;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-top: 20px;
 }
 
@@ -50,31 +50,31 @@ padding:0;
 
 .slice1 {
   position: absolute;
-  margin-left: 200px;
+  margin-left: 230px;
   margin-top: 150px;
 }
 
 .logo {
   position: absolute;
-  margin-left: 250px;
+  margin-left: 280px;
   margin-top: 50px;
 }
 
 .lemon {
   position: absolute;
-  margin-left: 920px;
+  margin-left: 950px;
   margin-top: 120px;
 }
 
 .slice2 {
   position: absolute;
-  margin-left: 1050px;
+  margin-left: 1080px;
   margin-top: 180px;
 }
 
 .slice2a {
   position: absolute;
-  margin-left: 1050px;
+  margin-left: 1080px;
   top: 0;
 }
 
@@ -88,13 +88,13 @@ padding:0;
 
 .cartonleft {
   position: absolute;
-  margin-left: 90px;
+  margin-left: 120px;
   margin-top: 5px;
 }
 
 .form {
       position: absolute;
-      margin-left: 440px;
+      margin-left: 470px;
       margin-top: 100px;
 }
 
@@ -127,7 +127,7 @@ padding:0;
 
 .cartonright {
       position: absolute;
-      margin-left: 1000px;
+      margin-left: 1030px;
       margin-top: 160px;
 }
 
@@ -141,18 +141,18 @@ padding:0;
 
 .slice3 {
   position: absolute;
-  margin-left: 200px;
+  margin-left: 230px;
 }
 
 .slice4 {
   position: absolute;
-  margin-left: 20px;
+  margin-left: 50px;
   bottom: 0;
 }
 
 .social {
   position: absolute;
-  margin-left: 410px;
+  margin-left: 440px;
   margin-top: 110px;
 }
 
@@ -163,7 +163,7 @@ li {
 
 .cartonbottom {
   position: absolute;
-  margin-left: 1100px;
+  margin-left: 1130px;
   bottom: 0;
 }
 
