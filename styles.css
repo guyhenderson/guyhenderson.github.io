@@ -120,7 +120,7 @@ padding:0;
   margin-left: 1180px;
   top: 0;
 }
-.active .slice2a {
+/*.active .slice2a {
         animation: animationSlice2a ease-in-out 5s;
         animation-iteration-count: infinite;
         transform-origin: 50% 50%;
@@ -134,7 +134,7 @@ padding:0;
               75% {
                   transform: translateY(100px) rotate(360deg);
               }
-}
+}*/
 
                             /*MIDDLE ROW*/
 
@@ -237,10 +237,10 @@ button {
 
             @keyframes animationSlice3{
               30% {
-                  transform: translateX(100px) rotate(210deg);
+                  transform: translateX(70px) rotate(210deg);
               }
               60% {
-                  transform: translateY(100px) rotate(-300deg);
+                  transform: translateY(70px) rotate(-300deg);
               }
 }
 
