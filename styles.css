@@ -250,7 +250,7 @@ button {
   margin-left: 50px;
   bottom: 0;
 }
-.active .slice4 {
+/*.active .slice4 {
         animation: animationSlice1 ease-in-out 5s;
         animation-iteration-count: infinite;
         transform-origin: 50% 50%;
@@ -264,7 +264,7 @@ button {
               75% {
                   transform: translateY(100px) rotate(360deg);
               }
-}
+}*/
 
 .social {
   position: absolute;
@@ -282,7 +282,7 @@ li {
   margin-left: 1230px;
   bottom: 0;
 }
-.active .cartonbottom {
+/*.active .cartonbottom {
         animation: animationCartonBottom ease-in-out 5s;
         animation-iteration-count: infinite;
         transform-origin: 50% 50%;
@@ -296,197 +296,4 @@ li {
               75% {
                   transform: translateY(100px) rotate(360deg);
               }
-}
-
-/*///////////////////////////////////////////////////////////////////////////////*/
-
-/*.header {
-}
-
-h1 {
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-
-
-
-.carton {
-  margin-left: 200px;
-}
-
-.active .carton {
-
-    animation: animationMelon ease-in-out 5s;
-    animation-iteration-count: infinite;
-    transform-origin: 50% 50%;
-    }
-
-        @keyframes animationMelon{
-        0% {
-          transform:  translate(0px,50px)  rotate(0deg) ;
-        }
-        50% {
-          transform:  translate(500px,-50px)  rotate(180deg);
-        }
-        100% {
-          transform:  translate(0px,50px)  rotate(360deg);
-        }
-  }
-
-
-nav {
-  background-color: rgb(200, 240, 190);
-  font-family: 'Nunito', sans-serif;
-  margin: auto 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  overflow: auto;
-}
-
-RESPONSIVE NAV STUFF
-
-@media (max-width: 1024px) {
-    nav {
-  background-color: red;
-    }
-}
-
-.form {
-  background-color: rgb(255, 215, 230);
-  height: 200px;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: 'Nunito', sans-serif;
-}
-
-.mc-field-group {
-  padding-right: 200px;
-}
-
-#mc-embedded-subscribe-form .mc-field-group input {
-  border: 1px solid black;
-}
-
-.mc-embedded-subscribe-form {
-  width: 40%;
-  margin: 0 auto;
-}
-
-.name {
-  margin-left: 1px;
-  margin-bottom: 5px;
-  padding-right: 150px;
-  border: 1px solid black;
-}
-
-.surname {
-  margin-left: 3px;
-  margin-bottom: 5px;
-  padding-right: 150px;
-  border: 1px solid black;
-}
-
-.main {
-  background-color: RGB(250, 40, 60);
-  height: 500px;
-  width: 100%;
-  padding-top: 200px;
-}
-
-.melon1 {
-margin-left: 100px;
-display: inline-block;
-}
-
-.active .melon1 {
-  animation: animationMelon1 ease-in-out 5s;
-  animation-iteration-count: infinite;
-  transform-origin: 50% 50%;
-  }
-
-  @keyframes animationMelon1{
-  0% {
-    transform:  translate(100px,-50px)  rotate(0deg) ;
-  }
-  50% {
-    transform:  translate(-50px,100px)  rotate(180deg);
-  }
-  100% {
-    transform:  translate(100px,-50px)  rotate(360deg);
-  }
-}
-
-.slice {
-  margin-left: 200px;
-  display: inline-block;
-}
-
-.active .slice {
-      animation: animationMelon2 ease-in-out 4s;
-      animation-iteration-count: infinite;
-      transform-origin: 50% 50%;
-      }
-
-          @keyframes animationMelon2{
-          0% {
-            transform:  translate(600px,-200px)  rotate(0deg) ;
-          }
-          50% {
-            transform:  translate(-100px,-50px)  rotate(180deg);
-          }
-          100% {
-            transform:  translate(550px,50px)  rotate(360deg);
-          }
-}
-
-.disco {
-  margin-left: 50px;
-  display: inline-block;
-}
-
-.active .disco {
-        animation: animationMelon3 ease-in-out 3s;
-        animation-iteration-count: infinite;
-        transform-origin: 50% 50%;
-        }
-
-            @keyframes animationMelon3{
-            0% {
-              transform:  translate(0px,50px)  rotate(90deg) ;
-            }
-            25% {
-              transform:  translate(400px,0px)  rotate(180deg);
-            }
-            50% {
-              transform:  translate(25px,250px)  rotate(270deg);
-            }
-            100% {
-              transform:  translate(25px,0px)  rotate(360deg);
-            }
-}
-
-.lemon {
-  margin-left: 0;
-  display: inline-block;
-
-}
-
-.active .lemon {
-        animation: animationMelon4 ease-in-out 7s;
-        animation-iteration-count: infinite;
-        transform-origin: 50% 50%;
-        }
-
-            @keyframes animationMelon4{
-            0% {
-              transform:  translate(0px,-50px)  rotate(0deg) ;
-            }
-            50% {
-              transform:  translate(-500px,-50px)  rotate(180deg);
-            }
-            100% {
-              transform:  translate(0px,-50px)  rotate(360deg);
-            }
 }*/
