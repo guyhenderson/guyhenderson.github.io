@@ -4,7 +4,7 @@ margin:0;
 padding:0;
 }
 
-.container {
+#container {
   background-image: url("background.png");
   background-size: cover;
   background-repeat:no-repeat;
@@ -105,13 +105,14 @@ input {
       height: 55px;
       text-align: center;
       margin-left: -1px;
-      color: white;
+      color: rgb(255,255,255);
       font-size: 22px;
 }
 
 input.placeholder {
   text-align: center;
-  color: white;
+  color: rgb(255,255,255);
+  opacity: 0;
 }
 
 label {

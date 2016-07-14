@@ -1,6 +1,6 @@
 jQuery(function(){
-  jQuery('#mce-EMAIL').on('keypress', function(){
-    jQuery('#main').addClass('active');
+  jQuery('#fieldEmail').on('keypress', function(){
+    jQuery('#container').addClass('active');
   });
 });
 
