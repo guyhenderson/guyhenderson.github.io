@@ -99,7 +99,7 @@ padding:0;
 }
 
 input {
-      border: 2px solid white;
+      border: 3px solid white;
       background-color: rgb(0, 185, 0);
       width: 400px;
       height: 55px;
@@ -107,6 +107,11 @@ input {
       margin-left: -1px;
       color: white;
       font-size: 22px;
+}
+
+input.placeholder {
+  text-align: center;
+  color: white;
 }
 
 label {
@@ -121,10 +126,6 @@ button {
       margin-top: 60px;
       font-size: 35px;
       color: rgb(0, 185, 0);
-}
-
-input.placeholder {
-  text-align: center;
 }
 
 .cartonright {
