@@ -26,26 +26,23 @@ padding:0;
   margin-left: 80px;
   margin-top: 20px;
 }
-
       .active .discoball {
-              animation: animationMelon3 ease-in-out 3s;
+              animation: animationMelon3 ease-in-out 5s;
               animation-iteration-count: infinite;
               transform-origin: 50% 50%;
               }
 
                   @keyframes animationMelon3{
-                  0% {
-                    transform:  translate(0px,50px)  rotate(90deg) ;
-                  }
-                  25% {
-                    transform:  translate(400px,0px)  rotate(180deg);
-                  }
-                  50% {
-                    transform:  translate(25px,250px)  rotate(270deg);
-                  }
-                  100% {
-                    transform:  translate(25px,0px)  rotate(360deg);
-                  }
+                    25% {
+                        transform: translateX(-50px) rotate(180deg);
+                    }
+                    50% {
+                        transform: translateY(50px) rotate(270deg);
+                    }
+
+                    75% {
+                        transform: translateY(-20px) rotate(360deg);
+                    }
       }
 
 .slice1 {
@@ -53,6 +50,22 @@ padding:0;
   margin-left: 230px;
   margin-top: 150px;
 }
+      .active .slice1 {
+              animation: animationSlice1 ease-in-out 5s;
+              animation-iteration-count: infinite;
+              transform-origin: 50% 50%;
+              }
+
+                  @keyframes animationSlice1{
+                    50% {
+                        transform: translateX(-100px) rotate(180deg);
+                    }
+
+                    75% {
+                        transform: translateY(100px) rotate(360deg);
+                    }
+      }
+
 
 .logo {
   position: absolute;
@@ -60,22 +73,70 @@ padding:0;
   margin-top: 50px;
 }
 
+
 .lemon {
   position: absolute;
   margin-left: 1050px;
   margin-top: 140px;
 }
+        .active .lemon {
+                animation: animationLemon ease-in-out 5s;
+                animation-iteration-count: infinite;
+                transform-origin: 50% 50%;
+                }
+
+                    @keyframes animationLemon{
+                      50% {
+                          transform: translateX(-100px) rotate(180deg);
+                      }
+
+                      75% {
+                          transform: translateY(100px) rotate(360deg);
+                      }
+        }
+
 
 .slice2 {
   position: absolute;
   margin-left: 1180px;
   margin-top: 180px;
 }
+      .active .slice2 {
+              animation: animationSlice2 ease-in-out 5s;
+              animation-iteration-count: infinite;
+              transform-origin: 50% 50%;
+              }
+
+                  @keyframes animationSlice2{
+                    50% {
+                        transform: translateX(-100px) rotate(180deg);
+                    }
+
+                    75% {
+                        transform: translateY(100px) rotate(360deg);
+                    }
+      }
+
 
 .slice2a {
   position: absolute;
   margin-left: 1180px;
   top: 0;
+}
+.active .slice2a {
+        animation: animationSlice2a ease-in-out 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationSlice2a{
+              50% {
+                  transform: translateX(-100px) rotate(180deg);
+              }
+
+              75% {
+                  transform: translateY(100px) rotate(360deg);
+              }
 }
 
                             /*MIDDLE ROW*/
@@ -90,6 +151,21 @@ padding:0;
   position: absolute;
   margin-left: 120px;
   margin-top: 5px;
+}
+.active .cartonleft {
+        animation: animationCartonLeft ease-in-out 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationCartonLeft{
+              50% {
+                  transform: translateX(-100px) rotate(180deg);
+              }
+
+              75% {
+                  transform: translateY(100px) rotate(360deg);
+              }
 }
 
 .form {
@@ -129,10 +205,26 @@ button {
       color: rgb(0, 185, 0);
 }
 
+
 .cartonright {
       position: absolute;
       margin-left: 1130px;
       margin-top: 160px;
+}
+.active .cartonright {
+        animation: animationCartonRight ease-in-out 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationCartonRight{
+              50% {
+                  transform: translateX(-100px) rotate(180deg);
+              }
+
+              75% {
+                  transform: translateY(100px) rotate(360deg);
+              }
 }
 
           /*BOTTOM ROW*/
@@ -142,11 +234,42 @@ button {
   margin-left: 230px;
   margin-top: 280px;
 }
+.active .slice3 {
+        animation: animationSlice3 ease-in-out 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationSlice3{
+              50% {
+                  transform: translateX(-100px) rotate(180deg);
+              }
+
+              75% {
+                  transform: translateY(100px) rotate(360deg);
+              }
+}
+
 
 .slice4 {
   position: absolute;
   margin-left: 50px;
   bottom: 0;
+}
+.active .slice4 {
+        animation: animationSlice1 ease-in-out 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationSlice4{
+              50% {
+                  transform: translateX(-100px) rotate(180deg);
+              }
+
+              75% {
+                  transform: translateY(100px) rotate(360deg);
+              }
 }
 
 .social {
@@ -164,6 +287,21 @@ li {
   position: absolute;
   margin-left: 1230px;
   bottom: 0;
+}
+.active .cartonbottom {
+        animation: animationCartonBottom ease-in-out 5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        }
+
+            @keyframes animationCartonBottom{
+              50% {
+                  transform: translateX(-100px) rotate(180deg);
+              }
+
+              75% {
+                  transform: translateY(100px) rotate(360deg);
+              }
 }
 
 /*///////////////////////////////////////////////////////////////////////////////*/
