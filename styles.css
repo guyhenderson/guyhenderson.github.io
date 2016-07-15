@@ -1,19 +1,43 @@
-@font-face {
+/*@font-face {
 font-family: AvenirLTStd-Black;
-src: url("./AvenirLTStd-Black.otf") format("opentype");
+src: url("AvenirLTStd-Black.otf") format("opentype");
 }
 
 @font-face {
 font-family: BrezelGrotesk-BOLD;
 font-weight: bold;
-src: url("./BrezelGrotesk-BOLD.otf") format("opentype");
+src: url("BrezelGrotesk-BOLD.otf") format("opentype");
+}*/
+
+@font-face {
+  font-family: 'BrezelGrotesk-Bold';
+  src: url('BrezelGrotesk-Bold.eot');
+  src: url('BrezelGrotesk-Bold.woff2') format('woff2'),
+       url('BrezelGrotesk-Bold.woff') format('woff'),
+       url('BrezelGrotesk-Bold.ttf') format('truetype'),
+       url('BrezelGrotesk-Bold.svg#BrezelGrotesk-Bold') format('svg'),
+       url('BrezelGrotesk-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Black';
+  src: url('AvenirLTStd-Black.eot');
+  src: url('AvenirLTStd-Black.woff2') format('woff2'),
+       url('AvenirLTStd-Black.woff') format('woff'),
+       url('AvenirLTStd-Black.ttf') format('truetype'),
+       url('AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg'),
+       url('AvenirLTStd-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
 body {
 margin:0;
 padding:0;
-font-family: 'BrezelGrotesk-BOLD', serif;
+font-family: 'BrezelGrotesk-BOLD';
 /*font-family: 'AvenirLTStd-Black', serif;
 font-size: 48px;*/
 }
