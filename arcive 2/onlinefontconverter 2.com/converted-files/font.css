@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'BrezelGrotesk-Bold';
+  src: url('BrezelGrotesk-Bold.eot');
+  src: url('BrezelGrotesk-Bold.woff2') format('woff2'),
+       url('BrezelGrotesk-Bold.woff') format('woff'),
+       url('BrezelGrotesk-Bold.ttf') format('truetype'),
+       url('BrezelGrotesk-Bold.svg#BrezelGrotesk-Bold') format('svg'),
+       url('BrezelGrotesk-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
