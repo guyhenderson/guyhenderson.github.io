@@ -310,6 +310,7 @@ li {
     background-size: cover;
     background-repeat:no-repeat;
     height: 2000px;
+    width: 4px;
     margin: 0;
     padding: 0;
   }
