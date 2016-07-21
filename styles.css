@@ -306,10 +306,10 @@ li {
 
 @media (max-width: 500px) {
   #container {
-    background-image: url("background.png");
+    background-image: url("sign up - for mobile.png");
     background-size: cover;
     background-repeat:no-repeat;
-    /*height: 750px;*/
+    height: 750px;
     margin: 0;
     padding: 0;
   }
@@ -332,6 +332,11 @@ li {
     position: absolute;
     margin-left: 70px;
     margin-top: 50px;
+  }
+  .lemon {
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 4px;
   }
   .cartonleft {
     position: absolute;
@@ -356,5 +361,29 @@ li {
     position: absolute;
     margin-left: 230px;
     margin-top: 400px;
+  }
+  .slice2 {
+    position: absolute;
+        visibility: hidden;
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+  .slice2a {
+    position: absolute;
+        visibility: hidden;
+    margin-left: 1px;
+    top: 0;
+  }
+  .cartonright {
+        position: absolute;
+            visibility: hidden;
+        margin-left: 1px;
+        margin-top: 1px;
+  }
+  .cartonbottom {
+    position: absolute;
+    visibility: hidden;
+    margin-left: 1px;
+    bottom: 0;
   }
 }
