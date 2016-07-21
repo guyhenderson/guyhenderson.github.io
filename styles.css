@@ -1,4 +1,4 @@
-Gui
+
 @font-face {
   font-family: 'BrezelGrotesk-Bold';
   src: url('BrezelGrotesk-Bold.eot');
@@ -309,8 +309,7 @@ li {
     background-image: url("background.png");
     background-size: cover;
     background-repeat:no-repeat;
-    height: 2000px;
-    width: 4px;
+    /*height: 750px;*/
     margin: 0;
     padding: 0;
   }
