@@ -306,10 +306,11 @@ li {
 
 @media (max-width: 500px) {
   #container {
-    background-image: url("sign up - for mobile.png");
+    background-image: url("background.png");
     background-size: cover;
-    background-repeat:no-repeat;
-    height: 750px;
+    background-repeat: no-repeat;
+    height: 1150px;
+    width: 1300px;
     margin: 0;
     padding: 0;
   }
