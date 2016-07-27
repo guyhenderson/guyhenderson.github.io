@@ -325,6 +325,10 @@ li {
     height: 105px;
     width: 150px;
   }
+  .slice1 img {
+    height: 70px;
+    width: 90px;
+  }
   .cartonleft img {
     height: 105px;
     width: 70px;
@@ -365,7 +369,7 @@ li {
   .cartonleft {
     position: absolute;
     margin-left: 20px;
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .header {
     position: relative;
@@ -408,8 +412,8 @@ li {
   }
   .slice3 {
     position: absolute;
-    margin-left: 250px;
-    margin-top: 200px;
+    margin-left: 240px;
+    margin-top: 255px;
   }
   .slice2 {
     position: absolute;
@@ -433,6 +437,11 @@ li {
     position: absolute;
     display: none;
     margin-left: 1px;
+    bottom: 0;
+  }
+  .slice4 {
+    position: absolute;
+    margin-left: 100px;
     bottom: 0;
   }
 }
