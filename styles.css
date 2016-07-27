@@ -321,6 +321,10 @@ li {
     height: 70px;
     width: 70px;
   }
+  .logo img {
+    height: 150px;
+    width: 150px;
+  }
   .header {
     position: relative;
     width: 1275px;
