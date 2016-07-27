@@ -25,6 +25,8 @@
 
 
 body {
+width: 100%;
+height: 100%;
 margin:0;
 padding:0;
 font-family: 'BrezelGrotesk-BOLD';
@@ -34,7 +36,7 @@ font-size: 48px;*/
 
 #container {
   background-image: url("background.png");
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat:no-repeat;
   height: 750px;
   margin: 0;
@@ -304,19 +306,20 @@ li {
 
 /*RESPONSIVE*/
 
-@media (max-width: 500px) {
+@media screen and (max-width: 320px) {
   #container {
-    background-image: url("sign up - for mobile.png");
-    background-size: cover;
+    background-image: url("background.png");
+    border: 1px solid black;
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    height: 1150px;
-    width: 1300px;
+    height: 1290px;
+    width: 1275px;
     margin: 0;
     padding: 0;
   }
   .header {
     position: relative;
-    width: 100%;
+    width: 1275px;
     height: 30%;
   }
   .discoball {
@@ -344,6 +347,11 @@ li {
     margin-left: 20px;
     margin-top: 200px;
   }
+  .header {
+    position: relative;
+    width: 1275px;
+    height: 30%;
+  }
   .form {
         position: absolute;
         margin-left: 50px;
@@ -365,25 +373,25 @@ li {
   }
   .slice2 {
     position: absolute;
-        visibility: hidden;
+    display: none;
     margin-left: 1px;
     margin-top: 1px;
   }
   .slice2a {
     position: absolute;
-        visibility: hidden;
+    display: none;
     margin-left: 1px;
     top: 0;
   }
   .cartonright {
         position: absolute;
-            visibility: hidden;
+        display: none;
         margin-left: 1px;
         margin-top: 1px;
   }
   .cartonbottom {
     position: absolute;
-    visibility: hidden;
+    display: none;
     margin-left: 1px;
     bottom: 0;
   }
