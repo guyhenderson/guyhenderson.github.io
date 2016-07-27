@@ -322,8 +322,20 @@ li {
     width: 70px;
   }
   .logo img {
-    height: 150px;
+    height: 105px;
     width: 150px;
+  }
+  .cartonleft img {
+    height: 105px;
+    width: 70px;
+  }
+  .slice3 img {
+    height: 70px;
+    width: 90px;
+  }
+  .social img {
+    height: 50px;
+    width: 45px;
   }
   .header {
     position: relative;
@@ -342,12 +354,12 @@ li {
   }
   .logo {
     position: absolute;
-    margin-left: 70px;
+    margin-left: 45px;
     margin-top: 30px;
   }
   .lemon {
     position: absolute;
-    margin-left: 260px;
+    margin-left: 240px;
     margin-top: 4px;
   }
   .cartonleft {
