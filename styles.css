@@ -373,9 +373,9 @@ li {
     height: 30%;
   }
   .form {
-        position: absolute;
-        margin-left: 50px;
-        margin-top: 110px;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 50px;
   }
   input {
     border: 3px solid white;
@@ -399,8 +399,8 @@ li {
   }
   .social {
     position: absolute;
-    margin-left: 1px;
-    margin-top: 260px;
+    margin-left: -9px;
+    margin-top: 200px;
   }
   li {
     /*display: block;*/
