@@ -328,22 +328,22 @@ li {
   }
   .discoball {
     position: absolute;
-    margin-left: 2px;
-    margin-top: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
   .slice1 {
     position: absolute;
-    margin-left: 1px;
+    margin-left: 10px;
     margin-top: 150px;
   }
   .logo {
     position: absolute;
-    margin-left: 7px;
-    margin-top: 50px;
+    margin-left: 70px;
+    margin-top: 30px;
   }
   .lemon {
     position: absolute;
-    margin-left: 230px;
+    margin-left: 260px;
     margin-top: 4px;
   }
   .cartonleft {
@@ -384,15 +384,15 @@ li {
   .social {
     position: absolute;
     margin-left: 1px;
-    margin-top: 230px;
+    margin-top: 260px;
   }
   li {
     /*display: block;*/
-    padding: 5px;
+    padding: 0;
   }
   .slice3 {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 250px;
     margin-top: 200px;
   }
   .slice2 {
