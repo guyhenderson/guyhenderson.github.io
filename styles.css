@@ -308,9 +308,9 @@ li {
 
 @media screen and (max-width: 320px) {
   #container {
-    background-image: url("background.png");
+    background-image: url("sign up - for mobile.png");
     border: 1px solid black;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     width: 318px;
@@ -334,12 +334,12 @@ li {
   }
   .logo {
     position: absolute;
-    margin-left: 70px;
+    margin-left: 7px;
     margin-top: 50px;
   }
   .lemon {
     position: absolute;
-    margin-left: 330px;
+    margin-left: 230px;
     margin-top: 4px;
   }
   .cartonleft {
@@ -357,10 +357,30 @@ li {
         margin-left: 50px;
         margin-top: 110px;
   }
+  input {
+    border: 3px solid white;
+    background-color: rgb(27, 178, 75);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-left: -1px;
+    color: rgb(255,255,255);
+    font-size: 12px;
+  }
+  button {
+    background-color: rgb(204, 229, 185);
+    border: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 1px;
+    font-family: 'AvenirLTStd-Black', serif;
+    font-size: 25px;
+    color: rgb(27, 178, 75);
+  }
   .social {
     position: absolute;
-    margin-left: 10px;
-    margin-top: 330px;
+    margin-left: 1px;
+    margin-top: 230px;
   }
   li {
     /*display: block;*/
@@ -368,8 +388,8 @@ li {
   }
   .slice3 {
     position: absolute;
-    margin-left: 230px;
-    margin-top: 400px;
+    margin-left: 200px;
+    margin-top: 200px;
   }
   .slice2 {
     position: absolute;
