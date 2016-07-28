@@ -313,7 +313,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    width: 318px;
+    width: 320px;
     margin: 0;
     padding: 0;
   }
@@ -343,7 +343,7 @@ li {
   }
   .header {
     position: relative;
-    width: 1275px;
+    width: 320px;
     height: 30%;
   }
   .discoball {
@@ -371,10 +371,10 @@ li {
     margin-left: 20px;
     margin-top: 250px;
   }
-  .header {
+  .middle {
     position: relative;
-    width: 1275px;
-    height: 30%;
+    width: 320px;
+    height: 70%;
   }
   .form {
     position: absolute;
