@@ -495,4 +495,29 @@ li {
     margin-left: 1500px;
     margin-top: 250px;
 }
+.cartonleft {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 210px;
+}
+.slice3 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 450px;
+}
+.form {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 250px;
+}
+.social {
+    position: absolute;
+    margin-left: 765px;
+    margin-top: 550px;
+}
+.cartonbottom {
+    position: absolute;
+    margin-left: 1700px;
+    bottom: 0
+}
 }
