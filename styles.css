@@ -354,12 +354,12 @@ li {
   .slice1 {
     position: absolute;
     margin-left: 10px;
-    margin-top: 150px;
+    margin-top: 140px;
   }
   .logo {
     position: absolute;
     margin-left: 45px;
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .lemon {
     position: absolute;
@@ -396,7 +396,7 @@ li {
     border: none;
     text-transform: uppercase;
     margin-left: 50px;
-    margin-top: 1px;
+    margin-top: 25px;
     font-family: 'AvenirLTStd-Black', serif;
     font-size: 25px;
     color: rgb(27, 178, 75);
