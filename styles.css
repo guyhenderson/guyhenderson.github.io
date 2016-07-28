@@ -395,7 +395,7 @@ li {
     background-color: rgb(204, 229, 185);
     border: none;
     text-transform: uppercase;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 25px;
     font-family: 'AvenirLTStd-Black', serif;
     font-size: 25px;
@@ -441,6 +441,7 @@ li {
   }
   .slice4 {
     position: absolute;
+    display: none;
     margin-left: 100px;
     bottom: 0;
   }
