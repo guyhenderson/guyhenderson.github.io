@@ -306,7 +306,7 @@ li {
 
 /*RESPONSIVE iPhone*/
 
-@media screen and (max-width: 320px) and (min-width: 320px) {
+@media screen and (min-width: 320px) {
   #container {
     background-image: url("mobile_background3.png");
     /*border: 1px solid black;*/
@@ -449,7 +449,7 @@ li {
 
 /*RESPONSIVE IMAC*/
 
-@media screen and (max-width: 1920px) and (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
   #container {
     background-image: url("background.png");
     /*border: 1px solid black;*/
