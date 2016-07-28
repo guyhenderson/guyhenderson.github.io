@@ -308,7 +308,7 @@ li {
 
 @media screen and (max-width: 320px) {
   #container {
-    background-image: url("mobile_background.png");
+    background-image: url("mobile_background3.png");
     border: 1px solid black;
     background-size: cover;
     background-repeat: no-repeat;
@@ -368,7 +368,7 @@ li {
   }
   .cartonleft {
     position: absolute;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 250px;
   }
   .middle {
@@ -404,7 +404,7 @@ li {
   .social {
     position: absolute;
     margin-left: -9px;
-    margin-top: 200px;
+    margin-top: 203px;
   }
   li {
     /*display: block;*/
@@ -413,7 +413,7 @@ li {
   .slice3 {
     position: absolute;
     margin-left: 240px;
-    margin-top: 255px;
+    margin-top: 270px;
   }
   .slice2 {
     position: absolute;
