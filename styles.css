@@ -308,7 +308,7 @@ li {
 
 @media screen and (max-width: 320px) {
   #container {
-    background-image: url("sign up - for mobile.png");
+    background-image: url("mobile_background.png");
     border: 1px solid black;
     background-size: cover;
     background-repeat: no-repeat;
