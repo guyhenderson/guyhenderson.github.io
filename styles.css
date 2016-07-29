@@ -489,8 +489,8 @@ li {
     background-image: url("ipad_background.png");
     background-size: cover;
     background-repeat:no-repeat;
-    height: 768px;
-    width: 425px;
+    height: 800px;
+    width: 768px;
     margin: 0;
     padding: 0;
   }
