@@ -486,10 +486,10 @@ li {
 
 @media screen and (min-device-width: 425px) and (max-width: 1023px) {
   #container {
-    background-image: url("ipad_background.png");
+    background-image: url("biggerbackground.png");
     background-size: cover;
     background-repeat:no-repeat;
-    height: 800px;
+    height: 768px;
     width: 1023px;
     margin: 0;
     padding: 0;
